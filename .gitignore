@@ -17,7 +17,8 @@ ipch
 *.sdf
 *.opensdf
 *.idb
-*.vcxproj
+*.vcxproj*
+*.vpc*
 *.sln
 
 # OSX/Linux build products
@@ -54,3 +55,14 @@ config.cfg
 # shader files
 *.tmp
 
+# Map files
+*.bsp
+*.lin
+*.rmx
+*.vmx
+*.ain
+
+# Debug files
+sp/game/mod_hl2/
+sp/src/utils/qc_eyes/Debug/
+sp/src/utils/qc_eyes/Release/
